@@ -1,0 +1,30 @@
+  501  echo "# 20230605-JuanPalaceto" >> README.md
+  502  git init
+  503  git add README.md
+  504  git commit -m "first commit"
+  505  git branch -M main
+  506  git remote add origin https://github.com/JuanPalaceto/20230605-JuanPalaceto.git
+  507  git push -u origin main
+  508  touch comandos.txt
+  509  touch main.js index.html
+  510  git add .
+  511  git commit -m "commit 01 de JuanPalaceto"
+  512  git push
+  513  git checkout -b feature
+  514  mkdir Hardware Software SeguridadInformatica
+  515  touch Hardware/resumen.txt
+  516  touch Software/resumen.txt
+  517  touch SeguridadInformatica/resumen.txt
+  518  git push origin feature
+  519  git status
+  520  git add .
+  521  git commit -m "commit 02 de JuanPalaceto"
+  522  git push origin feature
+  523  git checkout main
+  524  mv main.js resumenHardware.txt
+  525  mv index.html resumenSoftware.txt
+  526  nano resumenSoftware
+  527  nano resumenSoftware
+  528  nano resumenHardware
+  529  nano resumenHardware
+  530  history 100 > comandos.txt
